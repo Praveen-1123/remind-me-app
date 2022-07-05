@@ -1,0 +1,82 @@
+name: remind_me
+description: A Flutter project for both android and ios to remind me for my regular activities.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #ios_defaults
+  cupertino_icons: ^1.0.2
+
+  #themes (dark & light)
+  adaptive_theme: ^2.3.0
+
+  #navigations,dialogs,snackbars and bottomsheets
+  get: ^4.3.8
+
+  #get storage to store local data and listen
+  get_storage: ^2.0.3
+
+  #animated text
+  animated_text_kit: ^4.2.1
+
+  #lottie animations
+  lottie: ^1.2.1
+
+  #state provider
+  provider: ^4.3.3
+
+  #device info provider 
+  device_info: ^2.0.3
+
+  #shared preferences storage
+  shared_preferences: ^2.0.0
+
+  #toast message
+  fluttertoast: ^8.0.8
+
+  #http api calls
+  http: ^0.13.4
+
+  #loading animation
+  flutter_spinkit: ^5.1.0
+
+  #verification code 
+  flutter_verification_code: ^1.1.1
+
+  #basic animations
+  animate_do: ^2.0.0
+
+  #system properties handler
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/common/
+    - assets/lottie/
+
+  fonts:
+    - family: "Poppins"
+      fonts:
+        - asset: fonts/poppins/Poppins-Regular.ttf
+        - asset: fonts/poppins/Poppins-Italic.ttf
+          style: italic
+        - asset: fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+
+    - family: "Cinzel"
+      fonts:
+        - asset: fonts/cinzel/Cinzel-Regular.ttf
+        - asset: fonts/cinzel/Cinzel-Bold.ttf
+          weight: 700      
